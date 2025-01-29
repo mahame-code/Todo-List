@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="div-background">
+      <button
+        class="background-selector"
+        style="background-image: url(/images/background-1.jpg)"
+        ;
+      ></button>
+      <button
+        class="background-selector"
+        style="background-image: url(/images/background-2.jpg)"
+        ;
+      ></button>
+      <button
+        class="background-selector"
+        style="background-image: url(/images/background-3.jpg)"
+        ;
+      ></button>
+    </div>
+
+    <section class="card">
+      <div class="head">
+        <p>Todos</p>
+        <div id="i">
+          <i data-lucide="plus"></i>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="todo">
+          <div class="todo-checkbox">
+            <div class="todo-checkbox-circle"></div>
+            <input type="checkbox" />
+          </div>
+          <p class="text">Add</p>
+          <button class="trash">
+            <i data-lucide="trash-2"></i>
+          </button>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
